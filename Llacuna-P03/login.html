@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Login</title>
+</head>
+<body>
+
+<style>
+ form{
+ border-color: deeppink;
+     border-width: .15em; 
+     border-style: ridge;
+     font: 95% Arial, Helvetica, sans-serif;
+     max-width: 400px;
+     margin: 10px auto;
+     padding: 16px;
+     background: #F7F7F7;
+     }
+    div{
+     margin: 3px;
+    }
+
+   label {
+    display: inline-block;;
+    width: 100px;
+    }
+    .center{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    } 
+    #submit{
+    background: pink;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 25px;
+    width: 150px;
+    font: Helvetica;
+    text-shadow: none;
+    }
+  
+</style>
+<h1 align="center">Login Page</h1>
+<form action="mylist.html" method="get" class="form">
+ <div>
+     <label>Username:</label>
+ <input type='email' autocomplete='username' id='email' placeholder='Type username'/>
+</div>
+
+ <div>
+ <label>Password:</label>
+<input type='password' autocomplete='new-password' placeholder='Type password'/>
+<br>
+</div>
+ <input class="center" type="submit" value="Login" id="submit">
+ </form>
+
+</body>
+</html>
+

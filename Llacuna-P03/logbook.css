@@ -1,0 +1,25 @@
+
+    body{
+        background-image: url('tulip.png');
+        overflow: hidden;
+        background-attachment: no-repeat;
+        background-size: 1500px;
+    }
+    form{
+        font: 95% Fancy, sans-serif;
+        max-width: 400px;
+        margin:  10px auto;
+        padding: 16px;
+        background: #90EE90;
+    }   
+
+#submit{
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 35px;
+    width: 150px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+}
